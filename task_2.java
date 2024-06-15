@@ -5,7 +5,7 @@ public void checkIsAdultWhenAgeIsMoreThan18True() {
     assertEquals("Должно вернуться true, так как пользователь совершеннолетний", true, isAdult);
 }
 
-// Напиши код здесь
+
 @Test
 public void checkIsAdultWhenAgeIsLessThan18False() {
     Program program = new Program();
